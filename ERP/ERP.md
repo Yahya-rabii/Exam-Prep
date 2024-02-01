@@ -402,8 +402,9 @@ tco = cout direct + cout indirect + cout caché
 
 
 # Méthodes de conduite de projet:
- ## 1. Markus and Tanis
-    - phase 1 : Projet chartering 
+## 1. Markus and Tanis
+-
+    - phase 1 : Projet chartering
        ```
         la définition du projet
         le choix du fournisseur
@@ -432,6 +433,7 @@ tco = cout direct + cout indirect + cout caché
 
 
 ## 2. Bankroft
+-
       - phase 1 : Focus
         
              ```
