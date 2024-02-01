@@ -433,15 +433,14 @@ tco = cout direct + cout indirect + cout caché
 
 
 ## 2. Bankroft
+-
       - phase 1 : Focus
-      
             ```
                définir les éléments clés pour le comité
                sélection des membres des équipes
                élaboration des directives principales du projet
                création du plan proje
              ```
-             
       - phase 2 : As Is
                ```
                Analyse des processus métier actuels
@@ -449,7 +448,6 @@ tco = cout direct + cout indirect + cout caché
                mapping et adaptation des processus métier à l’ERP
                formation des équipes du projet.
              ```
-      
       - phase 3 : To Be
              ```
                Conception de haut niveau conception détaillée acceptée par
