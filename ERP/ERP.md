@@ -359,27 +359,22 @@ APS (Advanced Planning and Scheduling) :
         - Budget
         - Deadline
         - Ressources
-
-    3. Grille d'évaluation des progiciels :
-        - un outil d'analyse et de comparaison des progiciels
-    
-    4. Réunions de recuil des besoins :
-        - Expression Libre :
-            - les utilisateurs expriment leurs besoins en toute liberté
-        - Expression Dirigée :
-            - les utilisateurs expriment leurs besoins en fonction des fonctionnalités du progiciel
-
-    5. Cahier des charges :
-        - Niveau Synthétique :
-            - pour les décideurs
-        - Niveau Détaillé :
-            - pour les utilisateurs
-            (annexes specifiques)
+      
 
 - Phase 2 : Choix du progiciel
+  -  Grille d'évaluation des progiciels :
+        - un outil d'analyse et de comparaison des progiciels
 - Phase 3 : Integration du progiciel
-- Phase 4 : Exploitation et maintenance.
+      - Réunions de recuil des besoins :
+              - Expression Libre :
+                  - les utilisateurs expriment leurs besoins en toute liberté
+              - Expression Dirigée :
+                  - les utilisateurs expriment leurs besoins en fonction des fonctionnalités du progiciel
 
+- Phase 4 : Exploitation et maintenance.
+      -  Cahier des charges :
+                - Niveau Synthétique : pour les décideurs
+                - Niveau Détaillé : pour les utilisateurs (annexes specifiques)
 
 
 ----------------------------------------------------------------------------
