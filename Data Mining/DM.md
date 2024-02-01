@@ -124,8 +124,54 @@ cas:
 
 
 
+- Étant donné un ensemble d'éléments {a ; b; c; d; e; F; g; h} et un ensemble de transactions T selon le
+tableau suivant, construisez l'arbre FP et utilisez l'algorithme FP-Growth pour calculer tous les
+ensembles d'éléments fréquents pour minSup = 0:1 (c'est-à-dire les transactions qui sont nécessaires
+pour qu'un ensemble d'éléments soit fréquent).
+
+```
+
+TID | Items
+------------
+1   | ag
+2   | cg
+3   | eg
+4   | dg
+5   | bdfg
+6   | dg
+7   | ag
+8   | ag
+9   | ar
+10  | ag
+11  | afh
+12  | af
+13  | ade
+14  | bdfg
 
 
+
+```
+
+
+- extraire les itemsets frequents, supprimer les itemsets non frequents, trier les itemsets frequents decroissant
+
+
+item | frequent 
+---------------
+g    | 10
+a    | 8
+d    | 5
+
+
+
+
+- reconstruire la base de donnees a partir de l'etape precedente
+
+- construire le FP-Growth tree
+- construire la base du modèle conditionnel (chaque noeud est ces parents)
+- supprimer chaque element dans la base du modèle conditionnel avec un support < minsup
+- pour chaque element restant dans la base du modèle conditionnel on construit conditional FP-tree
+- extraire les schémas fréquents
 
 
 

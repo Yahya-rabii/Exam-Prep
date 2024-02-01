@@ -574,6 +574,44 @@ CCNAS-ASA(config)# object network dmz-server
 
 ## AAA Configuration :
 
+
+
+- AAA is a security architecture that combines three services: authentication, authorization, and accounting. AAA provides a method to identify users, grant or deny access to resources, and track resource usage. These services are provided by AAA servers, which are typically RADIUS or TACACS+ servers.
+
+
+- Authentication : Authentication is the process of identifying users and devices. Authentication can be based on something a user knows, something a user has, or something a user is. For example, a user can be authenticated by using a username and password (something the user knows), a smart card (something the user has), or a fingerprint (something the user is).
+
+
+- Authorization : Authorization is the process of providing access to resources based on the identity of the user. For example, a user may be authorized to access some resources but not others. Authorization is typically based on the user's role or group membership.
+
+
+- Accounting : Accounting is the process of tracking resource usage. Accounting information can be used for billing, auditing, or capacity planning.
+
+
+- RADIUS : Remote Authentication Dial-In User Service (RADIUS) is a client/server protocol that provides centralized authentication, authorization, and accounting management for users who connect and use a network service. RADIUS is commonly used for dial-up and VPN connections, but it can also be used for wireless and wired network connections.
+
+
+- TACACS+ : Terminal Access Controller Access Control System Plus (TACACS+) is a client/server protocol that provides centralized authentication, authorization, and accounting management for users who connect and use a network service. TACACS+ is commonly used for device administration, such as for routers, switches, and firewalls.
+
+
+- AAA Server : An AAA server is a server that provides authentication, authorization, and accounting services. AAA servers are typically RADIUS or TACACS+ servers.
+
+
+
+Tacacs+ is more secure than Radius because it encrypts the whole packet, while Radius only encrypts the password.
+
+
+Tacacs+ uses TCP while Radius uses UDP.
+
+tacas+ is cisco proprietary while Radius is open standard.
+
+tacas+ is more flexible than Radius.
+
+
+
+
+
+
 ![Alt text](image.png)
 
 
