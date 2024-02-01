@@ -433,6 +433,7 @@ tco = cout direct + cout indirect + cout caché
 
 2. Bankroft
       - phase 1 : Focus
+        
              ```
                définir les éléments clés pour le comité
                sélection des membres des équipes
@@ -440,6 +441,7 @@ tco = cout direct + cout indirect + cout caché
                création du plan proje
              ```
       - phase 2 : As Is
+        
                ```
                Analyse des processus métier actuels
                installation de l’ERP
@@ -448,6 +450,7 @@ tco = cout direct + cout indirect + cout caché
              ```
       
       - phase 3 : To Be
+   
              ```
                Conception de haut niveau conception détaillée acceptée par
                l'utilisateur
@@ -455,6 +458,7 @@ tco = cout direct + cout indirect + cout caché
                communication constante avec l'utilisateur
              ```
       - phase 4 : Constructive – testing phase
+        
              ```
                Développement d’une configuration globale
                population d'instances de test avec des données réelles construction et test des interfaces
@@ -462,6 +466,7 @@ tco = cout direct + cout indirect + cout caché
                test du système et des utilisateurs
              ```
       - phase 5 : Actual implementation
+        
              ```
                Construction et aménagement du réseau informatique
                installation des postes utilisateurs 
