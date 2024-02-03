@@ -359,27 +359,21 @@ APS (Advanced Planning and Scheduling) :
         - Budget
         - Deadline
         - Ressources
-
-    3. Grille d'évaluation des progiciels :
-        - un outil d'analyse et de comparaison des progiciels
-    
-    4. Réunions de recuil des besoins :
-        - Expression Libre :
-            - les utilisateurs expriment leurs besoins en toute liberté
-        - Expression Dirigée :
-            - les utilisateurs expriment leurs besoins en fonction des fonctionnalités du progiciel
-
-    5. Cahier des charges :
-        - Niveau Synthétique :
-            - pour les décideurs
-        - Niveau Détaillé :
-            - pour les utilisateurs
-            (annexes specifiques)
+      
 
 - Phase 2 : Choix du progiciel
-- Phase 3 : Integration du progiciel
-- Phase 4 : Exploitation et maintenance.
+  -  Grille d'évaluation des progiciels :
+        - un outil d'analyse et de comparaison des progiciels
 
+- Phase 3 : Integration du progiciel
+  - Réunions de recuil des besoins :
+    - Expression Libre : les utilisateurs expriment leurs besoins en toute liberté
+    - Expression Dirigée : les utilisateurs expriment leurs besoins en fonction des fonctionnalités du progiciel
+
+- Phase 4 : Exploitation et maintenance.
+  -  Cahier des charges :
+    - Niveau Synthétique : pour les décideurs
+    - Niveau Détaillé : pour les utilisateurs (annexes specifiques)
 
 
 ----------------------------------------------------------------------------
@@ -408,8 +402,9 @@ tco = cout direct + cout indirect + cout caché
 
 
 # Méthodes de conduite de projet:
- 1. Markus and Tanis
-    - phase 1 : Projet chartering 
+## 1. Markus and Tanis
+-
+    - phase 1 : Projet chartering
        ```
         la définition du projet
         le choix du fournisseur
@@ -437,43 +432,42 @@ tco = cout direct + cout indirect + cout caché
        ```
 
 
-2. Bankroft
-
-- phase 1 : Focus
-       ```
-         définir les éléments clés pour le comité
-         sélection des membres des équipes
-         élaboration des directives principales du projet
-         création du plan proje
-       ```
-- phase 2 : As Is
-         ```
-         Analyse des processus métier actuels
-         installation de l’ERP
-         mapping et adaptation des processus métier à l’ERP
-         formation des équipes du projet.
-       ```
-
-- phase 3 : To Be
-       ```
-         Conception de haut niveau conception détaillée acceptée par
-         l'utilisateur
-         prototypage interactif
-         communication constante avec l'utilisateur
-       ```
-- phase 4 : Constructive – testing phase
-       ```
-         Développement d’une configuration globale
-         population d'instances de test avec des données réelles construction et test des interfaces
-         création et test des rapports
-         test du système et des utilisateurs
-       ```
-- phase 5 : Actual implementation
-       ```
-         Construction et aménagement du réseau informatique
-         installation des postes utilisateurs 
-         gestion des formations des utilisateurs et du support
-       ```
+## 2. Bankroft
+-
+      - phase 1 : Focus
+            ```
+               définir les éléments clés pour le comité
+               sélection des membres des équipes
+               élaboration des directives principales du projet
+               création du plan proje
+             ```
+      - phase 2 : As Is
+               ```
+               Analyse des processus métier actuels
+               installation de l’ERP
+               mapping et adaptation des processus métier à l’ERP
+               formation des équipes du projet.
+             ```
+      - phase 3 : To Be
+             ```
+               Conception de haut niveau conception détaillée acceptée par
+               l'utilisateur
+               prototypage interactif
+               communication constante avec l'utilisateur
+             ```
+      - phase 4 : Constructive – testing phase
+             ```
+               Développement d’une configuration globale
+               population d'instances de test avec des données réelles construction et test des interfaces
+               création et test des rapports
+               test du système et des utilisateurs
+             ```
+      - phase 5 : Actual implementation
+             ```
+               Construction et aménagement du réseau informatique
+               installation des postes utilisateurs 
+               gestion des formations des utilisateurs et du support
+             ```
 
 
 ----------------------------------------------------------------------------
