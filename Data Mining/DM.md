@@ -246,10 +246,13 @@ ID | Gender | Car Type | shirt size | class
 
 - Calculer l'indice de Gini pour l'ensemble de la collection d'exemples de formation.
 
-
-
 Gini(class) = 1 - (10/20)^2 + (10/20)^2 = 0.5
 
+```
+| C0 | 10 |
+----------
+| C1 | 10 |
+```
 
 - Calculez l'indice de Gini pour l'attribut Customer ID.
 
