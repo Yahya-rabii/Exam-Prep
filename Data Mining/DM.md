@@ -35,12 +35,12 @@
 ### 1.1 Apriori algorithm :
 
 voila une base de donnees de transactions :
-
+```
 T1 --> 1 3 4
 T2 --> 2 3 5
 T3 --> 1 2 3 5
 T4 --> 2 5
-
+```
 - Exercice 1. Appliquer l’algorithme Apriori pour extraire les sous-ensembles d’items fréquents avec minSupp = 2.
 
 one itemset | support :
