@@ -108,7 +108,7 @@ avec le seuil minsup=30%.
 Dessinez le treillis des itemsets. Pour chaque noeud du treillis, joignez lui la lettre suivante, selon le
 cas:
 
-- N si le noeud est non candidat
+- N si le noeud est non candidat // or if its father is rare (infrequent)
 - F si le noeud est fréquent
 - R si le noeud est infrequent
 
