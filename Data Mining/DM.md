@@ -42,7 +42,7 @@ T3 --> 1 2 3 5
 T4 --> 2 5
 ```
 - Exercice 1. Appliquer l’algorithme Apriori pour extraire les sous-ensembles d’items fréquents avec minSupp = 2.
-
+```
 one itemset | support :
 -----------------------
 {1}         | 2
@@ -66,7 +66,7 @@ three itemset | support :
 {1,2,5}       | 1 // support < minsup donc on supprime
 {1,3,5}       | 1 // support < minsup donc on supprime
 {2,3,5}       | 2
-
+```
 - - Resultat : les sous-ensembles d’items fréquents avec minSupp = 2 : {2} {3} {5} {1,2} {1,3} {2,3} {2,5} {3,5} {2,3,5}
 
 - - Exercice 2. Générer les règles d’association avec minConf = 1
