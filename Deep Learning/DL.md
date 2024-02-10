@@ -1,11 +1,11 @@
-- **Steps to Create a Model**:
+### Steps to Create a Model:
   1. **Import Libraries**: Import libraries :/
   2. **Define Model Architecture**: Define the number of layers, types of layers (dense, activation functions), and connections between layers.
   3. **Compile Model**: Specify loss function, optimizer (adam,..), and evaluation metrics (accuracy,..).
   4. **Train Model**: Fit the model to the training data.
   5. **Evaluate Model**: Evaluate the model's performance on validation or test data.
 
-### Artificial Neural Networks (ANN):
+## Artificial Neural Networks (ANN):
 - **Usage**: Used for classification, regression, and pattern recognition.
 - **When to Use**: when we have structured data and when feature extraction is an important stepp.
 - **Most Important Code Part**:
@@ -17,9 +17,9 @@
     ])
     ```
 
-### Convolutional Neural Networks (CNN):
+## Convolutional Neural Networks (CNN):
 - **Usage**: Widely used in image classification, object detection, and image segmentation tasks.
-- **When to Use**: Ideal for tasks involving images or spatial data with hierarchical patterns.
+- **When to Use**: When we have images or hierarchical patterns.
 - **Most Important Code Part**:
   - Defining the convolutional layers:
     ```python
@@ -32,9 +32,9 @@
     ])
     ```
 
-### Recurrent Neural Networks (RNN):
+## Recurrent Neural Networks (RNN):
 - **Usage**: Suitable for tasks like time series prediction, natural language processing, and speech recognition.
-- **When to Use**: Ideal for tasks involving sequences where the order of data points matters.
+- **When to Use**: When we have sequences where the order of data points matters (eg: text completion, sentiment analysis, time series prediction).
 - **Most Important Code Part**:
   - Defining an LSTM layer:
     ```python
