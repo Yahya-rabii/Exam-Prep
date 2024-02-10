@@ -17,6 +17,24 @@
     ])
     ```
 
+---
+
+## Things to Keep in Mind:
+
+### Softmax:
+- The activation function decides whether a neuron should be activated or not.
+- for multi class classification task.
+- **Input**: Vector of arbitrary real-valued scores (logits).
+- **Output**: Probability distribution over multiple classes.
+
+### Sigmoid:
+- The activation function determines whether a neuron should be activated or not.
+- for binary classification task.
+- **Input**: Scalar or vector.
+- **Output**: Probability in the range [0, 1].
+
+---
+
 ## Convolutional Neural Networks (CNN):
 - **Usage**: Widely used in image classification, object detection, and image segmentation tasks.
 - **When to Use**: When we have images or hierarchical patterns.
