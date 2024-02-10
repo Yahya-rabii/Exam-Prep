@@ -115,3 +115,15 @@
 - **CNN**: Specialized for image data.
 - **RNN**: Designed for sequential data (voice, text,...).
 
+-----
+
+## Troubleshooting Model Performance:
+
+1. **Adjust Hyperparameters (optimizer, batch size, number of epochs, learning rate, activation functions, loss functions...)**
+2. **Evaluate Data Quality**
+3. **Feature Engineering**
+4. **Regularization (Dropout)**
+5. **Data Augmentation**
+6. **Change Algorithm**
+
+
