@@ -49,6 +49,30 @@
         Dense(num_classes, activation='softmax')
     ])
     ```
+---
+
+## Things to Keep in Mind:
+
+### Convolutional Layers:
+  - Conv2D: Applies convolutional operation with 32 filters and a kernel size of (3, 3).
+  - Activation: ReLU activation function is applied to introduce non-linearity.
+  - Input Shape: Specifies the input shape of the data.
+  
+### Pooling Layer:
+  - MaxPooling2D: Performs max pooling operation with a pool size of (2, 2).
+
+### Flattening Layer:
+  - Flatten: Reshapes the output of the convolutional layers into a 1D vector.
+
+### Dense Layers:
+  - Dense: Fully connected layer with 128 units.
+  - Activation: ReLU activation function is applied.
+  
+### Output Layer:
+  - Dense: Fully connected layer with the number of units equal to the number of classes.
+  - Activation: Softmax activation function is applied for multi-class classification tasks.
+
+---
 
 ## Recurrent Neural Networks (RNN):
 - **Usage**: Suitable for tasks like time series prediction, natural language processing, and speech recognition.
