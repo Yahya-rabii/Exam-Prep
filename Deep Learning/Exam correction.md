@@ -2,7 +2,7 @@
 
 ## Exercice 1 : QCM
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ------------------------------------------------------------
 
