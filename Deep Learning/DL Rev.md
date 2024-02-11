@@ -35,7 +35,7 @@
 
 - streamlit : est une bibliothèque open-source Python qui facilite la création d'applications web pour l'analyse de données, la visualisation de données et la création de tableaux de bord interactifs.
 
-
+-  YOLO : is a popular real-time object detection system known for its speed and accuracy.
 ------------------------------------------------------------
 
 # Les types de réseaux de neurones : 
