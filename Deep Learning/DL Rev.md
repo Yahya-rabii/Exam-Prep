@@ -36,6 +36,7 @@
 - streamlit : est une bibliothèque open-source Python qui facilite la création d'applications web pour l'analyse de données, la visualisation de données et la création de tableaux de bord interactifs.
 
 -  YOLO : is a popular real-time object detection system known for its speed and accuracy.
+
 ------------------------------------------------------------
 
 # Les types de réseaux de neurones : 
@@ -47,6 +48,10 @@
     - RNN (Recurrent Neural Network - Réseau de Neurones Récursifs) : Adapté au traitement de données séquentielles grâce à des connexions récurrentes permettant de conserver une mémoire interne, utilisé pour la traduction automatique, la génération de texte, etc.
 
       - LSTM (Long Short-Term Memory) : Un type de RNN qui est capable de conserver des informations sur de longues séquences de données, souvent utilisé pour des tâches de traitement du langage naturel.
+
+    - KNN (K-Nearest Neighbors) : Un algorithme d'apprentissage automatique simple qui stocke toutes les instances disponibles et prédit la sortie d'une nouvelle instance en fonction de la similarité avec les instances existantes.
+
+    - LLM (Large Language Model) : Un modèle de langage capable de générer du texte de manière autonome, souvent utilisé pour des tâches de traitement du langage naturel.
 
 
 
