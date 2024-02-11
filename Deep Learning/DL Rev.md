@@ -49,6 +49,10 @@
 
       - LSTM (Long Short-Term Memory) : Un type de RNN qui est capable de conserver des informations sur de longues séquences de données, souvent utilisé pour des tâches de traitement du langage naturel.
 
+
+----------------------------------------------------------------------------
+
+
     - KNN (K-Nearest Neighbors) : Un algorithme d'apprentissage automatique simple qui stocke toutes les instances disponibles et prédit la sortie d'une nouvelle instance en fonction de la similarité avec les instances existantes.
 
     - LLM (Large Language Model) : Un modèle de langage capable de générer du texte de manière autonome, souvent utilisé pour des tâches de traitement du langage naturel.
