@@ -126,4 +126,18 @@
 5. **Data Augmentation**
 6. **Change Algorithm**
 
+## Supervised Learning Algorithms:
+- Artificial Neural Network (ANN)
+- Convolutional Neural Network (CNN)
+- Recurrent Neural Network (RNN)
+- Linear Regression
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+## Unsupervised Learning Algorithms:
+- K-means
+- Apriori Algorithm
+- Principal Component Analysis (PCA)
+- Dimensionality Reduction
 
