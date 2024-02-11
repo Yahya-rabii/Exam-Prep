@@ -148,3 +148,129 @@
     - Padding : Ajout de zéros ou de valeurs spécifiques pour remplir les séquences à une longueur spécifique.
 
   ------------------------------------------------------------
+
+
+#  Convolutional Neural Network (CNN):
+
+```python
+        import tensorflow as tf
+
+        # Define a simple CNN model
+        model = tf.keras.Sequential([
+            tf.keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)),
+            tf.keras.layers.MaxPooling2D((2, 2)),
+            tf.keras.layers.Flatten(),
+            tf.keras.layers.Dense(10, activation='softmax')
+        ])
+
+        # Compile the model
+        model.compile(optimizer='adam',
+                    loss='sparse_categorical_crossentropy',
+                    metrics=['accuracy'])
+
+        # Train the model
+        model.fit(x_train, y_train, epochs=5)
+```
+
+
+# Recurrent Neural Network (RNN):
+
+```python
+        
+
+import tensorflow as tf
+
+# Define a simple RNN model
+model = tf.keras.Sequential([
+    tf.keras.layers.SimpleRNN(10, input_shape=(None, 1)),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+# Compile the model
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Train the model
+model.fit(x_train, y_train, epochs=5)
+
+
+```
+
+
+#    Artificial Neural Network (ANN):
+
+```python
+
+import tensorflow as tf
+
+# Define a simple ANN model
+model = tf.keras.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+# Compile the model
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Train the model
+model.fit(x_train, y_train, epochs=5)
+
+
+```
+
+
+#    Long Short-Term Memory (LSTM):
+
+
+```python
+
+import tensorflow as tf
+
+# Define a simple LSTM model
+model = tf.keras.Sequential([
+    tf.keras.layers.LSTM(10, input_shape=(None, 1)),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+
+# Compile the model
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Train the model
+model.fit(x_train, y_train, epochs=5)
+
+
+```
+
+
+#     K-Nearest Neighbors (KNN):
+
+```python
+
+from sklearn.neighbors import KNeighborsClassifier
+
+# Create a KNN classifier
+knn = KNeighborsClassifier(n_neighbors=5)
+
+# Train the classifier
+knn.fit(X_train, y_train)
+
+# Make predictions
+predictions = knn.predict(X_test)
+
+
+```
+
+
+
+
+
+
+
+    ------------------------------------------------------------
+
