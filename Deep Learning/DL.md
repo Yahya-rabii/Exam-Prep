@@ -33,6 +33,11 @@
 - **Input**: Scalar or vector.
 - **Output**: Probability in the range [0, 1].
 
+### Tanh:
+- Similar to the sigmoid function
+- **Input**: Scalar or vector.
+- **Output**: between -1 and 1.
+
 ---
 
 ## Convolutional Neural Networks (CNN):
@@ -126,4 +131,69 @@
 5. **Data Augmentation**
 6. **Change Algorithm**
 
+## Supervised Learning Algorithms:
+- Artificial Neural Network (ANN)
+- Convolutional Neural Network (CNN)
+- Recurrent Neural Network (RNN)
+- Linear Regression
+- Logistic Regression
+- Decision Tree
+- Random Forest
 
+## Unsupervised Learning Algorithms:
+- K-means
+- Apriori Algorithm
+- Principal Component Analysis (PCA)
+- Dimensionality Reduction
+
+## Usage of some Parameters:
+
+1. **Batch Size**: Number of training examples used in one iteration.
+   ```python
+   batch_size = 32
+   ```
+
+2. **Epoch**: One pass through the entire training dataset.
+   ```python
+   epochs = 10
+   ```
+
+3. **Learning Rate**: Step size for model learning.
+   ```python
+   learning_rate = 0.001
+   ```
+
+4. **Optimizer**: Algorithm adjusting model parameters.
+   ```python
+   optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
+   ```
+
+5. **Loss Function**: Measures difference between predicted and actual values.
+   ```python
+   loss = 'sparse_categorical_crossentropy'
+   ```
+
+6. **Activation Function**: Applies non-linearity to neuron outputs.
+   ```python
+   activation = 'relu'
+   ```
+
+7. **Units/Neurons**: Number of nodes in a layer.
+   ```python
+   units = 128
+   ```
+
+8. **Dropout**: Regularizes model by ignoring random neurons.
+   ```python
+   dropout_rate = 0.2
+   ```
+
+9. **Validation Split**: Proportion of training data for validation.
+   ```python
+   validation_split = 0.2
+   ```
+
+10. **Early Stopping**: Stops training if validation performance worsens.
+    ```python
+    early_stopping_callback = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=3)
+    ```
