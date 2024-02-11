@@ -3,14 +3,12 @@
 
 # les Etapes d'apprentissage en profondeur : 
   
-    ```
-
+  ```
     1. Dataset
     2. Model
     3. learning and training
     4. Testing and Deployment
-
-    ```
+  ```
 
 
 ------------------------------------------------------------
