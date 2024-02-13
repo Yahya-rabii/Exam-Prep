@@ -22,17 +22,25 @@ D: Dependency Inversion Principle: les modules de haut niveau ne doivent pas dé
 
 JUnit est un framework open source qui permet d'écrire et d'exécuter des tests unitaires en Java. Il est l'un des frameworks de test les plus populaires en Java. JUnit a été développé par Erich Gamma et Kent Beck.
 
-
+```
 @before: permet d'initialiser les objets avant l'exécution de chaque test.
-@after: permet de nettoyer les objets après l'exécution de chaque test.
-@afterAll: permet de nettoyer les objets après l'exécution de tous les tests.
-@BeforeAll: permet d'initialiser les objets avant l'exécution de tous les tests.
-@DisplayName: permet de donner un nom à un test.
-@Disabled: permet de désactiver un test. (junit 5)
-@Ignore: permet de désactiver un test.
-@RepeatedTest: permet de répéter un test plusieurs fois.
-@Timeout: permet de définir un délai d'exécution pour un test.
 
+@after: permet de nettoyer les objets après l'exécution de chaque test.
+
+@afterAll: permet de nettoyer les objets après l'exécution de tous les tests.
+
+@BeforeAll: permet d'initialiser les objets avant l'exécution de tous les tests.
+
+@DisplayName: permet de donner un nom à un test.
+
+@Disabled: permet de désactiver un test. (junit 5)
+
+@Ignore: permet de désactiver un test.
+
+@RepeatedTest: permet de répéter un test plusieurs fois.
+
+@Timeout: permet de définir un délai d'exécution pour un test.
+```
 
 ----------------------------------------------------------------
 -----------------------  ----------------------
